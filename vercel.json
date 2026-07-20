@@ -1,9 +1,31 @@
 {
-  "redirects": [
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "cleanUrls": false,
+  "rewrites": [
     {
       "source": "/",
-      "destination": "/design/index.html",
-      "permanent": false
+      "destination": "/design/index.html"
+    },
+    {
+      "source": "/index.html",
+      "destination": "/design/index.html"
+    },
+    {
+      "source": "/about.html",
+      "destination": "/design/about.html"
+    },
+    {
+      "source": "/catering.html",
+      "destination": "/design/catering.html"
+    },
+    {
+      "source": "/menu.html",
+      "destination": "/design/menu.html"
+    },
+    {
+      "source": "/visit.html",
+      "destination": "/design/visit.html"
     }
   ]
 }
