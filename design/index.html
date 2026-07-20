@@ -1,282 +1,45 @@
-<!DOCTYPE html>
-
-<html class="scroll-smooth" lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Fig &amp; Filter | Roasted, Baked, Poured</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@600;700&amp;family=Work+Sans:wght@400;600&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    "colors": {
-                        "error-container": "#ffdad6",
-                        "tertiary": "#1b2500",
-                        "primary-container": "#4a2c4d",
-                        "on-secondary": "#ffffff",
-                        "primary-fixed-dim": "#e3b9e3",
-                        "secondary-fixed-dim": "#f5bd58",
-                        "inverse-on-surface": "#f8eeef",
-                        "surface-container-low": "#fbf1f2",
-                        "surface-dim": "#e1d8d9",
-                        "tertiary-fixed-dim": "#bfcd92",
-                        "surface-container-lowest": "#ffffff",
-                        "on-tertiary": "#ffffff",
-                        "secondary": "#7d5700",
-                        "outline-variant": "#cfc3cc",
-                        "on-primary-fixed": "#2c1030",
-                        "on-secondary-fixed": "#271900",
-                        "secondary-container": "#ffc55f",
-                        "surface-variant": "#e9e0e1",
-                        "on-tertiary-fixed": "#161f00",
-                        "on-primary-container": "#ba94bb",
-                        "on-error-container": "#93000a",
-                        "on-error": "#ffffff",
-                        "on-tertiary-container": "#98a66f",
-                        "tertiary-fixed": "#dbe9ac",
-                        "background": "#fff8f8",
-                        "surface-container": "#f5eced",
-                        "error": "#ba1a1a",
-                        "outline": "#7e747c",
-                        "primary": "#331736",
-                        "amber-glow": "#D9A441",
-                        "on-surface-variant": "#4d444b",
-                        "on-secondary-fixed-variant": "#5f4100",
-                        "inverse-primary": "#e3b9e3",
-                        "on-background": "#1e1b1c",
-                        "surface-container-highest": "#e9e0e1",
-                        "surface-tint": "#755377",
-                        "on-primary-fixed-variant": "#5b3c5e",
-                        "on-secondary-container": "#755100",
-                        "surface-container-high": "#efe6e7",
-                        "tertiary-container": "#303b0f",
-                        "on-primary": "#ffffff",
-                        "on-surface": "#1e1b1c",
-                        "secondary-fixed": "#ffdeaa",
-                        "ink-black": "#221E1F",
-                        "fig-deep": "#4A2C4D",
-                        "inverse-surface": "#342f30",
-                        "primary-fixed": "#ffd6fe",
-                        "surface-bright": "#fff8f8",
-                        "surface": "#fff8f8",
-                        "on-tertiary-fixed-variant": "#404b1e",
-                        "paper-white": "#FAF6F0"
-                    },
-                    "borderRadius": {
-                        "DEFAULT": "0.125rem",
-                        "lg": "0.25rem",
-                        "xl": "0.5rem",
-                        "full": "0.75rem"
-                    },
-                    "spacing": {
-                        "stack-lg": "64px",
-                        "stack-sm": "12px",
-                        "unit": "8px",
-                        "gutter": "24px",
-                        "margin-mobile": "20px",
-                        "stack-md": "32px",
-                        "container-max": "1120px"
-                    },
-                    "fontFamily": {
-                        "body-md": ["Work Sans"],
-                        "price-tag": ["Vollkorn"],
-                        "body-lg": ["Work Sans"],
-                        "headline-lg-mobile": ["Vollkorn"],
-                        "display-lg": ["Vollkorn"],
-                        "headline-lg": ["Vollkorn"],
-                        "headline-md": ["Vollkorn"],
-                        "label-caps": ["Work Sans"]
-                    },
-                    "fontSize": {
-                        "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}],
-                        "price-tag": ["18px", {"lineHeight": "24px", "fontWeight": "700"}],
-                        "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}],
-                        "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "600"}],
-                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}],
-                        "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}],
-                        "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "600"}],
-                        "label-caps": ["14px", {"lineHeight": "20px", "letterSpacing": "0.05em", "fontWeight": "600"}]
-                    }
-                },
-            },
-        }
-    </script>
-<style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-        .dotted-leader {
-            flex-grow: 1;
-            border-bottom: 1px dotted #4A2C4D;
-            margin: 0 8px;
-            opacity: 0.3;
-        }
-        .hero-overlay {
-            background: linear-gradient(to bottom, rgba(34, 30, 31, 0.4) 0%, rgba(34, 30, 31, 0.2) 50%, rgba(34, 30, 31, 0.6) 100%);
-        }
-    </style>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fig & Filter is a neighbourhood café roasting coffee and baking everything on site at 8 Chalk Lane.">
+  <title>Fig & Filter | Home</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-paper-white text-ink-black font-body-md antialiased">
-<!-- TopAppBar -->
-<header class="bg-paper-white border-b border-fig-deep/10 sticky top-0 z-50">
-<div class="flex justify-between items-center px-margin-mobile py-4 w-full max-w-container-max mx-auto">
-<div class="flex items-center gap-4">
-<span class="material-symbols-outlined text-fig-deep cursor-pointer active:opacity-70">menu</span>
-<h1 class="font-headline-md text-headline-md text-fig-deep uppercase tracking-widest">Fig &amp; Filter</h1>
-</div>
-<nav class="hidden md:flex gap-8 items-center">
-<a class="text-fig-deep border-b-2 border-fig-deep font-label-caps text-label-caps tracking-widest cursor-pointer" href="index.html">Home</a>
-<a class="text-ink-black hover:text-fig-deep transition-colors duration-200 font-label-caps text-label-caps tracking-widest cursor-pointer" href="menu.html">Menu</a>
-<a class="text-ink-black hover:text-fig-deep transition-colors duration-200 font-label-caps text-label-caps tracking-widest cursor-pointer" href="catering.html">Catering</a>
-<a class="text-ink-black hover:text-fig-deep transition-colors duration-200 font-label-caps text-label-caps tracking-widest cursor-pointer" href="about.html">About</a>
-<a class="text-ink-black hover:text-fig-deep transition-colors duration-200 font-label-caps text-label-caps tracking-widest cursor-pointer" href="visit.html">Visit</a>
-</nav>
-</div>
-</header>
-<main>
-<!-- Hero Section -->
-<section class="relative h-[90vh] min-h-[600px] w-full flex items-center overflow-hidden">
-<div class="absolute inset-0 z-0">
-<div class="w-full h-full hero-overlay absolute inset-0 z-10"></div>
-<img class="w-full h-full object-cover" data-alt="A cinematic, high-detail close-up of a rich, dark espresso being poured into a ceramic cup. The steam rises in soft swirls, catching warm morning light in a cozy, artisanal café environment. The color palette features deep coffee browns, warm amber glows, and the soft paper-white of a clean countertop. The image is crisp and professional, evoking a sense of artisanal craft and morning sanctuary." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCE74shtVHIHl15iQMucEVfDxdGvzZkyPhkgkOdlvWCH1a_GKUzmbHQwPSfYOyF3vNlyBxIJR3GTJ7P_PIEyamvot91ydrISAP0kaiMRBUZyppcBRKwsUwSHxqoWuKMOI7AzPGpS6uqNo2sU10tkbjRN7uZBvCw8s21s2mJJxp1uJo1-1PQmBgdyIZoW555IHfDHzj8akazI6vgfQiiNRLD4OLFDc4wjcPGWhZLTUlPO3YAVwxW-nTC"/>
-</div>
-<!-- Info Overlay (Address & Hours) -->
-<div class="absolute top-8 left-margin-mobile md:left-gutter right-margin-mobile z-20 flex flex-col md:flex-row md:justify-between items-start text-paper-white gap-4">
-<div class="flex items-center gap-2">
-<span class="material-symbols-outlined">location_on</span>
-<p class="font-label-caps text-label-caps">8 Chalk Lane</p>
-</div>
-<div class="flex items-center gap-2">
-<span class="material-symbols-outlined">schedule</span>
-<p class="font-label-caps text-label-caps">Tue-Sun, 7:30am–5:00pm</p>
-</div>
-</div>
-<div class="relative z-20 px-margin-mobile md:px-gutter max-w-container-max mx-auto w-full text-center md:text-left">
-<div class="max-w-2xl flex flex-col gap-stack-sm">
-<h2 class="font-display-lg text-display-lg text-paper-white leading-tight">Roasted here.<br/>Baked here.<br/>Poured for you.</h2>
-<div class="flex flex-col md:flex-row gap-4 mt-8 justify-center md:justify-start items-center">
-<button class="bg-fig-deep text-paper-white px-10 py-4 rounded-sm font-label-caps text-label-caps tracking-widest active:scale-95 transition-transform w-full md:w-auto">
-                            FIND US
-                        </button>
-<a class="text-paper-white font-label-caps text-label-caps tracking-widest border-b border-paper-white/50 hover:border-paper-white transition-all pb-1" href="#">
-                            VIEW MENU
-                        </a>
-</div>
-</div>
-</div>
-</section>
-<!-- Why Visit Section -->
-<section class="py-stack-lg bg-paper-white px-margin-mobile">
-<div class="max-w-container-max mx-auto">
-<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
-<!-- Reason 1 -->
-<div class="border border-fig-deep/10 p-gutter flex flex-col gap-4 text-center md:text-left bg-white/50">
-<span class="material-symbols-outlined text-fig-deep text-4xl" style="font-variation-settings: 'FILL' 1;">coffee_maker</span>
-<h3 class="font-headline-md text-headline-md text-fig-deep">We roast our own</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">Sourced responsibly and roasted in small batches on-site. The freshest cup you'll find on Chalk Lane, guaranteed.</p>
-</div>
-<!-- Reason 2 -->
-<div class="border border-fig-deep/10 p-gutter flex flex-col gap-4 text-center md:text-left bg-white/50">
-<span class="material-symbols-outlined text-fig-deep text-4xl" style="font-variation-settings: 'FILL' 1;">bakery_dining</span>
-<h3 class="font-headline-md text-headline-md text-fig-deep">Kitchen bakes daily</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">Our pastry chef arrives at 4am to ensure our sourdough and croissants are golden and ready the moment we open.</p>
-</div>
-<!-- Reason 3 -->
-<div class="border border-fig-deep/10 p-gutter flex flex-col gap-4 text-center md:text-left bg-white/50">
-<span class="material-symbols-outlined text-fig-deep text-4xl" style="font-variation-settings: 'FILL' 1;">chair</span>
-<h3 class="font-headline-md text-headline-md text-fig-deep">Stay as long as you like</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">A sanctuary for focused work or slow afternoons. Fast Wi-Fi, plenty of power outlets, and no rush.</p>
-</div>
-</div>
-</div>
-</section>
-<!-- Visual Break / Atmosphere -->
-<section class="h-96 w-full relative overflow-hidden bg-fig-deep">
-<div class="absolute inset-0 grid grid-cols-2 md:grid-cols-4 h-full">
-<div class="relative overflow-hidden group">
-<img class="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 scale-110 group-hover:scale-100" data-alt="Close-up of freshly roasted coffee beans cooling in a tray at Fig &amp; Filter café. The beans are rich, oily, and dark brown, with warm sunlight highlighting their texture. Modern minimalist aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC2-g3jy_4VXJ0o1ZQ91g4YxQUdKdpZbrIfh4g3761HHfZVWdvaWLur4paSVB6GwLjD4QHlWk-0QJr8orEquxqPkRxSy8UILD-dfrb3RJSyKL6DRByKDK4URx-SiTuzLr_lYQEluhWUluVUC3PjX16BxG17d4Wv4mnb1vfTVGyHt9iktLm_7bfukrP1mRAuv-c-ZftGPC2NYMr_mTQu5tiJUBfYed6tVQatMeNg9vptCk7I4DKYJG-X"/>
-</div>
-<div class="relative overflow-hidden group">
-<img class="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 scale-110 group-hover:scale-100" data-alt="A baker's hands dusting flour over freshly shaped sourdough loaves in a bright, clean kitchen. Warm morning light, tactile textures, artisanal bakery atmosphere." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCaENReGOCZSLsSfZukL597x3YkzbF7e54niEctY1zDegQAFrtnDPH1m0Zcj984J5Uc0rBhavVT1yAkHQ-K9BXpORsFNu_LtoTs_wy9pIHmn1icLY-Rck-4U11Dorf67W5uxQtO7h16Pn__ND_DOzBNEASmgfVdzXir1jp10ExMQhAKV8N0ROentbraAv71UwEwwI4jrp9rVCosfn9h9lQPAuqmkLGCVmLGHN6DLlqqfQxhYQcFR6Th"/>
-</div>
-<div class="relative overflow-hidden group hidden md:block">
-<img class="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 scale-110 group-hover:scale-100" data-alt="A minimalist interior shot of Fig &amp; Filter café, showing a cozy corner with a wooden table, a single ceramic cup of coffee, and a green plant. Soft, inviting sanctuary vibe." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBa1B-fc7Rvtt_mCleoUVj82ImZVCAmB_ByjoPAvw3cRDCAhjiBFqRgw4BcK2udta6TOW2rHFaPWzzXoIIHjddGxOaH8spwbjfk0grYuw5YAXxZgD1lWH6iy5cRk5Mn5xDvfRmc1wDL2IApdno6HYTeVGzCbs1yHd9HDDDPA54Uhp3_YRDKxGi-OiRzOtULnQPMwK_ULcPG4YQ8gxSf6HzaqjdPaneBUuNF3KZ_PpeFifaJ2MMAarQw"/>
-</div>
-<div class="relative overflow-hidden group hidden md:block">
-<img class="w-full h-full object-cover grayscale transition-all duration-700 group-hover:grayscale-0 scale-110 group-hover:scale-100" data-alt="Close-up of a perfectly poured latte with intricate heart-shaped latte art. The ceramic cup is a speckled off-white, sitting on a dark wood surface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDK4ejbc4hLoRloAUgC1baRfrvc2R5tm7UL732VNIQTJ7NCLQ0zMSM0qcQ5M_43p6dIHPNXo8u1QbBFzj0z4DZR8DZDaF3zcOy05XGpa-a6jGYTr-zyUQuNonF7L6FaHSNHqGnXJKUS2W-oVd_e24T8uUnJAmSW74f56KeEwrk_KvMBoulrkH8tUSqnolvLjZUYEgkBVrN79YAUkQAk_PuZl5hLOGfkUzbSqVWgYGkTcLhhXstivpNt"/>
-</div>
-</div>
-</section>
-</main>
-<!-- Footer -->
-<footer class="bg-paper-white border-t border-fig-deep pt-stack-lg pb-24 md:pb-stack-lg">
-<div class="w-full px-margin-mobile max-w-container-max mx-auto flex flex-col gap-stack-sm md:flex-row md:justify-between">
-<div class="flex flex-col gap-4">
-<h2 class="font-headline-md text-headline-md text-fig-deep uppercase tracking-widest">Fig &amp; Filter</h2>
-<div class="flex flex-col gap-1 text-on-surface-variant font-body-md text-body-md">
-<p>8 Chalk Lane, London</p>
-<p>Tue-Sun, 7:30am–5:00pm</p>
-</div>
-</div>
-<div class="flex flex-wrap gap-x-8 gap-y-4 items-start md:mt-0 mt-8">
-<nav class="flex flex-col gap-2">
-<a class="font-body-md text-body-md text-ink-black hover:underline underline text-fig-deep cursor-pointer" href="index.html">Home</a>
-<a class="font-body-md text-body-md text-ink-black hover:underline cursor-pointer" href="menu.html">Menu</a>
-<a class="font-body-md text-body-md text-ink-black hover:underline cursor-pointer" href="catering.html">Catering</a>
-</nav>
-<nav class="flex flex-col gap-2">
-<a class="font-body-md text-body-md text-ink-black hover:underline cursor-pointer" href="about.html">About</a>
-<a class="font-body-md text-body-md text-ink-black hover:underline cursor-pointer" href="visit.html">Visit</a>
-<a class="font-body-md text-body-md text-ink-black hover:underline cursor-pointer" href="catering.html">Order Catering</a>
-</nav>
-</div>
-</div>
-</footer>
-<!-- BottomNavBar (Mobile Only) -->
-<nav class="fixed bottom-0 left-0 w-full z-50 flex justify-around items-center px-2 py-3 bg-paper-white border-t border-fig-deep/10 md:hidden">
-<a class="flex flex-col items-center justify-center text-fig-deep font-bold active:scale-95 transition-transform" href="index.html">
-<span class="material-symbols-outlined">home</span>
-<span class="font-label-caps text-[10px] tracking-widest mt-1">HOME</span>
-</a>
-<a class="flex flex-col items-center justify-center text-on-surface-variant active:scale-95 transition-transform" href="menu.html">
-<span class="material-symbols-outlined">restaurant_menu</span>
-<span class="font-label-caps text-[10px] tracking-widest mt-1">MENU</span>
-</a>
-<a class="flex flex-col items-center justify-center text-on-surface-variant active:scale-95 transition-transform" href="catering.html">
-<span class="material-symbols-outlined">bakery_dining</span>
-<span class="font-label-caps text-[10px] tracking-widest mt-1">CATERING</span>
-</a>
-<a class="flex flex-col items-center justify-center text-on-surface-variant active:scale-95 transition-transform" href="about.html">
-<span class="material-symbols-outlined">info</span>
-<span class="font-label-caps text-[10px] tracking-widest mt-1">ABOUT</span>
-</a>
-<a class="flex flex-col items-center justify-center text-on-surface-variant active:scale-95 transition-transform" href="visit.html">
-<span class="material-symbols-outlined">location_on</span>
-<span class="font-label-caps text-[10px] tracking-widest mt-1">VISIT</span>
-</a>
-</nav>
-<script>
-        // Simple intersection observer for subtle fade-in effects
-        const observerOptions = {
-            threshold: 0.1
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('opacity-100', 'translate-y-0');
-                    entry.target.classList.remove('opacity-0', 'translate-y-4');
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('section > div').forEach(el => {
-            el.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-4');
-            observer.observe(el);
-        });
-    </script>
-</body></html>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Fig &amp; Filter</a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html" aria-current="page">Home</a><a href="menu.html">Menu</a><a href="catering.html">Catering</a><a href="about.html">About</a><a href="visit.html">Visit</a>
+      </nav>
+    </div><div class="container quick-info"><p><span>8 Chalk Lane, corner of Weaver Street</span><span>Tuesday–Friday 7:30am–5:00pm · Weekends 8:00am–5:00pm</span></p></div>
+  </header>
+  <main>
+    <section class="hero">
+      <img src="../content/images/hero-espresso-pour.jpg" alt="Espresso pouring from the portafilter into a white cup at the Fig & Filter counter">
+      <div class="container hero-content">
+        <h1>Fig &amp; Filter</h1>
+        <p class="tagline">Roasted here. Baked here. Poured for you.</p>
+        <div class="essentials"><span>Open Tuesday to Sunday, 7:30am – 5:00pm</span><span>8 Chalk Lane</span></div>
+        <div class="actions"><a class="button" href="visit.html">Find us →</a><a class="text-link" href="menu.html">See the full menu →</a></div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container grid three-columns">
+        <article class="card"><div class="accent-rule"></div><h2>We roast our own.</h2><p>Small batches, twice a week, in the machine you can see from the counter. If you can smell it, it was probably roasted within the last few days.</p></article>
+        <article class="card"><div class="accent-rule"></div><h2>The kitchen doesn't cut corners.</h2><p>Everything in the pastry case was made on site that morning. When the almond croissants run out, they run out.</p></article>
+        <article class="card"><div class="accent-rule"></div><h2>Stay as long as you like.</h2><p>Big tables, honest wifi, and nobody hovering to turn your seat. Laptops welcome on weekdays; humans welcome always.</p></article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div><strong class="brand">Fig &amp; Filter</strong><p>8 Chalk Lane, corner of Weaver Street</p></div>
+      <div><p>Tuesday–Friday: 7:30am–5:00pm</p><p>Saturday–Sunday: 8:00am–5:00pm</p><p>Monday: Closed</p></div>
+      <div><p><a href="mailto:hello@figandfilter.example">hello@figandfilter.example</a></p><div class="footer-links"><a href="catering.html">Order catering</a><a href="visit.html">Visit</a></div></div>
+    </div>
+  </footer>
+</body>
+</html>
